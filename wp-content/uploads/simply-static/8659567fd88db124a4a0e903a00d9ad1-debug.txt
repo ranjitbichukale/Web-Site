@@ -1,442 +1,442 @@
-[2024-07-10 14:06:41] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
-[2024-07-10 14:06:41] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
-[2024-07-10 14:06:41] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
-[2024-07-10 14:06:42] [class-ss-archive-creation-job.php:136] Current task: setup
-[2024-07-10 14:06:42] [class-ss-archive-creation-job.php:153] Performing task: setup
-[2024-07-10 14:06:42] [class-ss-task.php:44] Status message: [setup] Setting up
-[2024-07-10 14:06:42] [class-ss-setup-task.php:33] Creating archive directory: D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401\
-[2024-07-10 14:06:42] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/portfolio/ranjitbichukale.github.io/
-[2024-07-10 14:06:42] [class-ss-setup-task.php:137] File D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: D:/XAMPP/htdocs/portfolio/ranjitbichukale.github.io/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-07-10 14:06:42] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
-[2024-07-10 14:06:42] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-10 14:06:42] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-10 14:06:42] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
-[2024-07-10 14:06:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/
-[2024-07-10 14:06:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
-[2024-07-10 14:06:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e95726b8d8-OfViT4.tmp
-[2024-07-10 14:06:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/?simply_static_page=67
-[2024-07-10 14:06:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/?simply_static_page=67
-[2024-07-10 14:06:43] [class-ss-url-fetcher.php:103] Filesize: 85581 bytes
-[2024-07-10 14:06:43] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:43] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
-[2024-07-10 14:06:43] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e95726b8d8-OfViT4.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/index.html
-[2024-07-10 14:06:43] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:44] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
-[2024-07-10 14:06:44] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:45] [class-ss-page.php:118] Checking Content Identical:f38f2da7909d8ec696b749ddcdb1e6dc6f25c0e9===. Value: FALSE
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:72] URL: D:/XAMPP/htdocs/portfolio/ranjitbichukale.github.io/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
-[2024-07-10 14:06:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
-[2024-07-10 14:06:45] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
-[2024-07-10 14:06:45] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-10 14:06:45] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-10 14:06:45] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io
-[2024-07-10 14:06:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957555bda-vnzZmC.tmp
-[2024-07-10 14:06:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io?simply_static_page=69
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io?simply_static_page=69
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:103] Filesize: 382 bytes
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/portfolio/ranjitbichukale.github.io/
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/
-[2024-07-10 14:06:45] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e95755b645-pM50Vg.tmp
-[2024-07-10 14:06:45] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/sample-page/?simply_static_page=70
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/?simply_static_page=70
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:103] Filesize: 60765 bytes
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
-[2024-07-10 14:06:45] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e95755b645-pM50Vg.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/sample-page/index.html
-[2024-07-10 14:06:45] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:47] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
-[2024-07-10 14:06:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:48] [class-ss-page.php:118] Checking Content Identical:d8ae26effaad6c2279ac5eb934cc770d3e2b6d12===. Value: FALSE
-[2024-07-10 14:06:48] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/
-[2024-07-10 14:06:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
-[2024-07-10 14:06:48] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957814b98-31ewqV.tmp
-[2024-07-10 14:06:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/?simply_static_page=71
-[2024-07-10 14:06:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/?simply_static_page=71
-[2024-07-10 14:06:48] [class-ss-url-fetcher.php:103] Filesize: 78238 bytes
-[2024-07-10 14:06:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:48] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/10/hello-world/index.html
-[2024-07-10 14:06:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957814b98-31ewqV.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/2024/07/10/hello-world/index.html
-[2024-07-10 14:06:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:49] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
-[2024-07-10 14:06:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:50] [class-ss-page.php:118] Checking Content Identical:1010f3dcf192f4249217ee61abfa8514b9990b51===. Value: FALSE
-[2024-07-10 14:06:50] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/
-[2024-07-10 14:06:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
-[2024-07-10 14:06:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957ac238b-kjXC45.tmp
-[2024-07-10 14:06:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/?simply_static_page=72
-[2024-07-10 14:06:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/?simply_static_page=72
-[2024-07-10 14:06:51] [class-ss-url-fetcher.php:103] Filesize: 64836 bytes
-[2024-07-10 14:06:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:51] [class-ss-url-fetcher.php:233] New filename for static page: /author/ranjitbichukal/index.html
-[2024-07-10 14:06:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957ac238b-kjXC45.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/author/ranjitbichukal/index.html
-[2024-07-10 14:06:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:52] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
-[2024-07-10 14:06:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:53] [class-ss-page.php:118] Checking Content Identical:bf6c394fedf099cbb9e5fc19e82932ed0d9221f4===. Value: FALSE
-[2024-07-10 14:06:53] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/
-[2024-07-10 14:06:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
-[2024-07-10 14:06:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957d65f7b-ExnqQv.tmp
-[2024-07-10 14:06:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/?simply_static_page=73
-[2024-07-10 14:06:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/?simply_static_page=73
-[2024-07-10 14:06:53] [class-ss-url-fetcher.php:103] Filesize: 57528 bytes
-[2024-07-10 14:06:53] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:53] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957e0910b-wGtzre.tmp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:103] Filesize: 57528 bytes
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-07-10 14:06:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957ec1bd0-AzMIFB.tmp
-[2024-07-10 14:06:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=74
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=74
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957ec1bd0-AzMIFB.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:54] [class-ss-page.php:118] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-07-10 14:06:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957ecb918-YGosaD.tmp
-[2024-07-10 14:06:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=75
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=75
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957ecb918-YGosaD.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:54] [class-ss-page.php:118] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-07-10 14:06:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957ed3d5f-NZg0Tl.tmp
-[2024-07-10 14:06:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=76
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=76
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957ed3d5f-NZg0Tl.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/images/windows.webp
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:54] [class-ss-page.php:118] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/view.min.js
-[2024-07-10 14:06:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957edbb84-99eeOg.tmp
-[2024-07-10 14:06:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/view.min.js?simply_static_page=77
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/view.min.js?simply_static_page=77
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957edbb84-99eeOg.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-includes/blocks/navigation/view.min.js
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:54] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/feed/
-[2024-07-10 14:06:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
-[2024-07-10 14:06:54] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957ee2063-9c30MM.tmp
-[2024-07-10 14:06:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/feed/?simply_static_page=78
-[2024-07-10 14:06:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/feed/?simply_static_page=78
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:103] Filesize: 1867 bytes
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957ee2063-9c30MM.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/feed/index.xml
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:55] [class-ss-page.php:118] Checking Content Identical:2cacf88836d836e6925b3dbfb350374cba141c35===. Value: FALSE
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/comments/feed/
-[2024-07-10 14:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957f65514-GzK3UN.tmp
-[2024-07-10 14:06:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/comments/feed/?simply_static_page=79
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/comments/feed/?simply_static_page=79
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:103] Filesize: 1781 bytes
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957f65514-GzK3UN.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/comments/feed/index.xml
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:55] [class-ss-page.php:118] Checking Content Identical:dd447c5a9ffdd45fdb7f39172e453bc8198a490f===. Value: FALSE
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/style.min.css
-[2024-07-10 14:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957fe41fd-s05z3G.tmp
-[2024-07-10 14:06:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/style.min.css?simply_static_page=80
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/style.min.css?simply_static_page=80
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957fe41fd-s05z3G.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-includes/blocks/navigation/style.min.css
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:55] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/image/style.min.css
-[2024-07-10 14:06:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
-[2024-07-10 14:06:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e957ff164e-PeYJas.tmp
-[2024-07-10 14:06:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/image/style.min.css?simply_static_page=81
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/image/style.min.css?simply_static_page=81
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-10 14:06:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e957ff164e-PeYJas.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-includes/blocks/image/style.min.css
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/xmlrpc.php
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/xmlrpc.php
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/dist/interactivity.min.js
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e958007ad3-aELcEj.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/dist/interactivity.min.js?simply_static_page=84
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/dist/interactivity.min.js?simply_static_page=84
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e958007ad3-aELcEj.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-includes/js/dist/interactivity.min.js
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9580199b7-KZtTt5.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=85
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=85
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9580199b7-KZtTt5.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e95802307a-sWXEgV.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=86
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=86
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e95802307a-sWXEgV.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e95802b457-vLy01p.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=87
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=87
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e95802b457-vLy01p.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9580341d4-Fvc0Df.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=88
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=88
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9580341d4-Fvc0Df.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
-[2024-07-10 14:06:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-10 14:06:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-10 14:06:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-admin/
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e95803db52-9AThIt.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-admin/?simply_static_page=89
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-admin/?simply_static_page=89
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/portfolio/ranjitbichukale.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fportfolio%2Franjitbichukale.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D89&reauth=1
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:243] Creating a redirect page
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
-[2024-07-10 14:06:56] [class-ss-page.php:118] Checking Content Identical:35661662b46e5e67518aef7543c8f98bdbaf8d77===. Value: FALSE
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/feed/
-[2024-07-10 14:06:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
-[2024-07-10 14:06:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9580ba0ac-BORbl1.tmp
-[2024-07-10 14:06:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/sample-page/feed/?simply_static_page=90
-[2024-07-10 14:06:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/feed/?simply_static_page=90
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:103] Filesize: 797 bytes
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9580ba0ac-BORbl1.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/sample-page/feed/index.xml
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:57] [class-ss-page.php:118] Checking Content Identical:ef6a2e75845a27466e0f08b22537c56a8477a9bc===. Value: FALSE
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/pages/2
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/pages/2
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/oembed/1.0/embed
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/oembed/1.0/embed
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/comment-reply.min.js
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9581415bd-urxa21.tmp
-[2024-07-10 14:06:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=93
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=93
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9581415bd-urxa21.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-includes/js/comment-reply.min.js
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:57] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/feed/
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e95814db71-dYoCie.tmp
-[2024-07-10 14:06:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/feed/?simply_static_page=94
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/feed/?simply_static_page=94
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:103] Filesize: 1791 bytes
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/10/hello-world/feed/index.xml
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e95814db71-dYoCie.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/2024/07/10/hello-world/feed/index.xml
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:57] [class-ss-page.php:118] Checking Content Identical:be601ffb3b5953811d8c134a3860eedacc4a3b84===. Value: FALSE
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/css/dist/block-library/common.min.css
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9581cb1b8-dMzew2.tmp
-[2024-07-10 14:06:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/css/dist/block-library/common.min.css?simply_static_page=95
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/css/dist/block-library/common.min.css?simply_static_page=95
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9581cb1b8-dMzew2.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/wp-includes/css/dist/block-library/common.min.css
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:57] [class-ss-page.php:118] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: FALSE
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/posts/1
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/posts/1
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/feed/
-[2024-07-10 14:06:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
-[2024-07-10 14:06:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9581d3653-VTAbdG.tmp
-[2024-07-10 14:06:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/feed/?simply_static_page=97
-[2024-07-10 14:06:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/feed/?simply_static_page=97
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:103] Filesize: 1912 bytes
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:233] New filename for static page: /author/ranjitbichukal/feed/index.xml
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9581d3653-VTAbdG.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401/author/ranjitbichukal/feed/index.xml
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
-[2024-07-10 14:06:58] [class-ss-page.php:118] Checking Content Identical:8d0635aebce2fadf7d3c51a84675e47dfac789a3===. Value: FALSE
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/users/1
-[2024-07-10 14:06:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/users/1
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fportfolio%2Franjitbichukale.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D89&reauth=1
-[2024-07-10 14:06:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fportfolio%2Franjitbichukale.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D89&reauth=1
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
-[2024-07-10 14:06:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
-[2024-07-10 14:06:58] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
-[2024-07-10 14:06:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:136] Current task: generate_404
-[2024-07-10 14:06:58] [class-ss-archive-creation-job.php:153] Performing task: generate_404
-[2024-07-10 14:06:58] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e958266861-msV2dy.tmp
-[2024-07-10 14:06:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/1720620419?simply_static_page=0
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/1720620419?simply_static_page=0
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:103] Filesize: 57528 bytes
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
-[2024-07-10 14:06:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e958266861-msV2dy.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620401\404/index.html
-[2024-07-10 14:06:58] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
-[2024-07-10 14:07:00] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
-[2024-07-10 14:07:01] [class-ss-page.php:118] Checking Content Identical:fb409a81893231cc03fdee5c88ebbdaa17135aef===. Value: FALSE
-[2024-07-10 14:07:01] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
-[2024-07-10 14:07:01] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
-[2024-07-10 14:07:01] [class-ss-create-zip-archive.php:80] Creating zip archive
-[2024-07-10 14:07:01] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/portfolio/ranjitbichukale.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1720620401.zip">Click here to download</a>
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:136] Current task: wrapup
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:153] Performing task: wrapup
-[2024-07-10 14:07:01] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2024-07-10 14:07:01] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:197] Completing the job
-[2024-07-10 14:07:01] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:20
+[2024-07-10 14:09:54] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-07-10 14:09:54] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-07-10 14:09:54] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-07-10 14:09:55] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-07-10 14:09:55] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-07-10 14:09:55] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-07-10 14:09:55] [class-ss-setup-task.php:33] Creating archive directory: D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594\
+[2024-07-10 14:09:55] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/portfolio/ranjitbichukale.github.io/
+[2024-07-10 14:09:55] [class-ss-setup-task.php:137] File D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io\wp-content\plugins\simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: D:/XAMPP/htdocs/portfolio/ranjitbichukale.github.io/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-10 14:09:55] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-07-10 14:09:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-10 14:09:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-10 14:09:55] [class-ss-fetch-urls-task.php:69] Total pages: 2; Pages remaining: 2
+[2024-07-10 14:09:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/
+[2024-07-10 14:09:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 2
+[2024-07-10 14:09:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:09:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9633870e7-23C4uR.tmp
+[2024-07-10 14:09:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/?simply_static_page=100
+[2024-07-10 14:09:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/?simply_static_page=100
+[2024-07-10 14:09:56] [class-ss-url-fetcher.php:103] Filesize: 85581 bytes
+[2024-07-10 14:09:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:09:56] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-07-10 14:09:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9633870e7-23C4uR.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/index.html
+[2024-07-10 14:09:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:09:57] [class-ss-fetch-urls-task.php:159] Adding 20 URLs to the queue
+[2024-07-10 14:09:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:09:58] [class-ss-page.php:118] Checking Content Identical:f38f2da7909d8ec696b749ddcdb1e6dc6f25c0e9===. Value: FALSE
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:72] URL: D:/XAMPP/htdocs/portfolio/ranjitbichukale.github.io/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-07-10 14:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 2
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:83] Not fetching URL because it is not a local URL
+[2024-07-10 14:09:58] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 2 pages/files
+[2024-07-10 14:09:58] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-10 14:09:58] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-10 14:09:58] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:69] Total pages: 22; Pages remaining: 20
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io
+[2024-07-10 14:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 22
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9636641f0-SyMz9T.tmp
+[2024-07-10 14:09:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io?simply_static_page=102
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io?simply_static_page=102
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:103] Filesize: 383 bytes
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/portfolio/ranjitbichukale.github.io/
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/
+[2024-07-10 14:09:58] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 22
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e96366fa72-n3H1lZ.tmp
+[2024-07-10 14:09:58] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/sample-page/?simply_static_page=103
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/?simply_static_page=103
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:103] Filesize: 60765 bytes
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-07-10 14:09:58] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e96366fa72-n3H1lZ.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/sample-page/index.html
+[2024-07-10 14:09:58] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:00] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-07-10 14:10:00] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:01] [class-ss-page.php:118] Checking Content Identical:d8ae26effaad6c2279ac5eb934cc770d3e2b6d12===. Value: FALSE
+[2024-07-10 14:10:01] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/
+[2024-07-10 14:10:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 22
+[2024-07-10 14:10:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963914fa5-QXjUR4.tmp
+[2024-07-10 14:10:01] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/?simply_static_page=104
+[2024-07-10 14:10:01] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/?simply_static_page=104
+[2024-07-10 14:10:01] [class-ss-url-fetcher.php:103] Filesize: 78239 bytes
+[2024-07-10 14:10:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:10:01] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/10/hello-world/index.html
+[2024-07-10 14:10:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963914fa5-QXjUR4.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/2024/07/10/hello-world/index.html
+[2024-07-10 14:10:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:02] [class-ss-fetch-urls-task.php:159] Adding 22 URLs to the queue
+[2024-07-10 14:10:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:03] [class-ss-page.php:118] Checking Content Identical:1010f3dcf192f4249217ee61abfa8514b9990b51===. Value: FALSE
+[2024-07-10 14:10:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/
+[2024-07-10 14:10:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 22
+[2024-07-10 14:10:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963bb2d8d-S02d9z.tmp
+[2024-07-10 14:10:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/?simply_static_page=105
+[2024-07-10 14:10:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/?simply_static_page=105
+[2024-07-10 14:10:04] [class-ss-url-fetcher.php:103] Filesize: 64836 bytes
+[2024-07-10 14:10:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:10:04] [class-ss-url-fetcher.php:233] New filename for static page: /author/ranjitbichukal/index.html
+[2024-07-10 14:10:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963bb2d8d-S02d9z.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/author/ranjitbichukal/index.html
+[2024-07-10 14:10:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:05] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-07-10 14:10:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:06] [class-ss-page.php:118] Checking Content Identical:bf6c394fedf099cbb9e5fc19e82932ed0d9221f4===. Value: FALSE
+[2024-07-10 14:10:06] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/
+[2024-07-10 14:10:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 22
+[2024-07-10 14:10:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963e5e6d8-ubpedy.tmp
+[2024-07-10 14:10:06] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/?simply_static_page=106
+[2024-07-10 14:10:06] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/?simply_static_page=106
+[2024-07-10 14:10:06] [class-ss-url-fetcher.php:103] Filesize: 57528 bytes
+[2024-07-10 14:10:06] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:10:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963f01569-vaWGuS.tmp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/category/uncategorized/
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:103] Filesize: 57528 bytes
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-07-10 14:10:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 22
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963fa3167-Jlh6SW.tmp
+[2024-07-10 14:10:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=107
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp?simply_static_page=107
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:103] Filesize: 199724 bytes
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963fa3167-Jlh6SW.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/images/building-exterior.webp
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:07] [class-ss-page.php:118] Checking Content Identical:6804bf960deaa7ce32a32d8908cff9df0b157772===. Value: FALSE
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-07-10 14:10:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 22
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963fac87f-MPlWwV.tmp
+[2024-07-10 14:10:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=108
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp?simply_static_page=108
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:103] Filesize: 66482 bytes
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963fac87f-MPlWwV.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/images/tourist-and-building.webp
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:07] [class-ss-page.php:118] Checking Content Identical:5d2c6cd3d8d2c412281237628073e451257716e4===. Value: FALSE
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-07-10 14:10:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 22
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963fb51c9-3sHzYQ.tmp
+[2024-07-10 14:10:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=109
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/images/windows.webp?simply_static_page=109
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:103] Filesize: 126244 bytes
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963fb51c9-3sHzYQ.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/images/windows.webp
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:07] [class-ss-page.php:118] Checking Content Identical:18a3284f7b5ec684211dc355fe2ae56b30639a9e===. Value: FALSE
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/view.min.js
+[2024-07-10 14:10:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 22
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963fbdcb3-cJhzF2.tmp
+[2024-07-10 14:10:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/view.min.js?simply_static_page=110
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/view.min.js?simply_static_page=110
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963fbdcb3-cJhzF2.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-includes/blocks/navigation/view.min.js
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:07] [class-ss-page.php:118] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/feed/
+[2024-07-10 14:10:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 22
+[2024-07-10 14:10:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e963fc4e70-rPQHId.tmp
+[2024-07-10 14:10:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/feed/?simply_static_page=111
+[2024-07-10 14:10:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/feed/?simply_static_page=111
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:103] Filesize: 1868 bytes
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e963fc4e70-rPQHId.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/feed/index.xml
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:08] [class-ss-page.php:118] Checking Content Identical:2cacf88836d836e6925b3dbfb350374cba141c35===. Value: FALSE
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/comments/feed/
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9640566af-ctLUuh.tmp
+[2024-07-10 14:10:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/comments/feed/?simply_static_page=112
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/comments/feed/?simply_static_page=112
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:103] Filesize: 1782 bytes
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9640566af-ctLUuh.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/comments/feed/index.xml
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:08] [class-ss-page.php:118] Checking Content Identical:dd447c5a9ffdd45fdb7f39172e453bc8198a490f===. Value: FALSE
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/style.min.css
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9640d17d6-g7zrav.tmp
+[2024-07-10 14:10:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/style.min.css?simply_static_page=113
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/navigation/style.min.css?simply_static_page=113
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9640d17d6-g7zrav.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-includes/blocks/navigation/style.min.css
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:08] [class-ss-page.php:118] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/image/style.min.css
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9640debcf-5OlBN6.tmp
+[2024-07-10 14:10:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/image/style.min.css?simply_static_page=114
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/blocks/image/style.min.css?simply_static_page=114
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:103] Filesize: 7049 bytes
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/image/style.min.css
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9640debcf-5OlBN6.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-includes/blocks/image/style.min.css
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:08] [class-ss-page.php:118] Checking Content Identical:105a2ff003b77aefd61ecfb419b4690caa4c47bc===. Value: FALSE
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/xmlrpc.php
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/xmlrpc.php
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/dist/interactivity.min.js
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9640e6dc0-UaCQI2.tmp
+[2024-07-10 14:10:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/dist/interactivity.min.js?simply_static_page=117
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/dist/interactivity.min.js?simply_static_page=117
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9640e6dc0-UaCQI2.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-includes/js/dist/interactivity.min.js
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:08] [class-ss-page.php:118] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-07-10 14:10:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 22
+[2024-07-10 14:10:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9640f241e-NbNT9x.tmp
+[2024-07-10 14:10:08] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=118
+[2024-07-10 14:10:08] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2?simply_static_page=118
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:103] Filesize: 326628 bytes
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9640f241e-NbNT9x.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:09] [class-ss-page.php:118] Checking Content Identical:40546dbfd5c467c3257d8f3a4ad8af0d9995aeb6===. Value: FALSE
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-07-10 14:10:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 22
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e96410788d-LsawDO.tmp
+[2024-07-10 14:10:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=119
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2?simply_static_page=119
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:103] Filesize: 146060 bytes
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e96410788d-LsawDO.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:09] [class-ss-page.php:118] Checking Content Identical:b86a6f0bf3fb4777160165dfe37ca4e99b90216e===. Value: FALSE
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-07-10 14:10:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 22
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e964111574-CtY6rm.tmp
+[2024-07-10 14:10:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=120
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2?simply_static_page=120
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:103] Filesize: 105184 bytes
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e964111574-CtY6rm.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:09] [class-ss-page.php:118] Checking Content Identical:0fdff68c4027cf421d605798a1de46a061d160a3===. Value: FALSE
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-07-10 14:10:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 22
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e964118b37-cxhcr4.tmp
+[2024-07-10 14:10:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=121
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2?simply_static_page=121
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:103] Filesize: 132564 bytes
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e964118b37-cxhcr4.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_700.woff2
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:09] [class-ss-page.php:118] Checking Content Identical:dc56f8308f3385b427ce85c20b9afc471be17c60===. Value: FALSE
+[2024-07-10 14:10:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 2 of 22 pages/files
+[2024-07-10 14:10:09] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-10 14:10:09] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-10 14:10:09] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:69] Total pages: 32; Pages remaining: 10
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-admin/
+[2024-07-10 14:10:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 32
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e964122399-WhdQd8.tmp
+[2024-07-10 14:10:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-admin/?simply_static_page=122
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-admin/?simply_static_page=122
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/portfolio/ranjitbichukale.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fportfolio%2Franjitbichukale.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D122&reauth=1
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-07-10 14:10:09] [class-ss-page.php:118] Checking Content Identical:270a863df29aef8287e645880d53bb42ce0c0e78===. Value: FALSE
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/feed/
+[2024-07-10 14:10:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 32
+[2024-07-10 14:10:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e96419c834-cAIcZL.tmp
+[2024-07-10 14:10:09] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/sample-page/feed/?simply_static_page=123
+[2024-07-10 14:10:09] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/sample-page/feed/?simply_static_page=123
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:103] Filesize: 798 bytes
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e96419c834-cAIcZL.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/sample-page/feed/index.xml
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:10] [class-ss-page.php:118] Checking Content Identical:ef6a2e75845a27466e0f08b22537c56a8477a9bc===. Value: FALSE
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/pages/2
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/pages/2
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/oembed/1.0/embed
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/oembed/1.0/embed
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/comment-reply.min.js
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e964225609-oblPqW.tmp
+[2024-07-10 14:10:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=126
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/js/comment-reply.min.js?simply_static_page=126
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e964225609-oblPqW.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-includes/js/comment-reply.min.js
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:10] [class-ss-page.php:118] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/feed/
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e96422af09-w8NBQ5.tmp
+[2024-07-10 14:10:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/feed/?simply_static_page=127
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/2024/07/10/hello-world/feed/?simply_static_page=127
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:103] Filesize: 1792 bytes
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:233] New filename for static page: /2024/07/10/hello-world/feed/index.xml
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e96422af09-w8NBQ5.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/2024/07/10/hello-world/feed/index.xml
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:10] [class-ss-page.php:118] Checking Content Identical:be601ffb3b5953811d8c134a3860eedacc4a3b84===. Value: FALSE
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/css/dist/block-library/common.min.css
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9642a6551-qo06TG.tmp
+[2024-07-10 14:10:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/css/dist/block-library/common.min.css?simply_static_page=128
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-includes/css/dist/block-library/common.min.css?simply_static_page=128
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9642a6551-qo06TG.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/wp-includes/css/dist/block-library/common.min.css
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:10] [class-ss-page.php:118] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: FALSE
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/posts/1
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/posts/1
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/feed/
+[2024-07-10 14:10:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 32
+[2024-07-10 14:10:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e9642b1542-MET2I3.tmp
+[2024-07-10 14:10:10] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/feed/?simply_static_page=130
+[2024-07-10 14:10:10] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/author/ranjitbichukal/feed/?simply_static_page=130
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:103] Filesize: 1913 bytes
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:233] New filename for static page: /author/ranjitbichukal/feed/index.xml
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e9642b1542-MET2I3.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594/author/ranjitbichukal/feed/index.xml
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-07-10 14:10:11] [class-ss-page.php:118] Checking Content Identical:8d0635aebce2fadf7d3c51a84675e47dfac789a3===. Value: FALSE
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/users/1
+[2024-07-10 14:10:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 32
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-json/wp/v2/users/1
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:11] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 22 of 32 pages/files
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 1
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fportfolio%2Franjitbichukale.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D122&reauth=1
+[2024-07-10 14:10:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/portfolio/ranjitbichukale.github.io/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fportfolio%2Franjitbichukale.github.io%2Fwp-admin%2F%3Fsimply_static_page%3D122&reauth=1
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-07-10 14:10:11] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 32 of 33 pages/files
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-07-10 14:10:11] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 0
+[2024-07-10 14:10:11] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 33 pages/files
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-07-10 14:10:11] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-07-10 14:10:11] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\ranaj\AppData\Local\Temp/668e964339ab3-ioRpRY.tmp
+[2024-07-10 14:10:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/portfolio/ranjitbichukale.github.io/1720620612?simply_static_page=0
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/portfolio/ranjitbichukale.github.io/1720620612?simply_static_page=0
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:103] Filesize: 57528 bytes
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-07-10 14:10:11] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\ranaj\AppData\Local\Temp/668e964339ab3-ioRpRY.tmp to D:\XAMPP\htdocs\portfolio\ranjitbichukale.github.io/wp-content/uploads\simply-static\temp-files/simply-static-1-1720620594\404/index.html
+[2024-07-10 14:10:11] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-07-10 14:10:13] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-07-10 14:10:13] [class-ss-page.php:118] Checking Content Identical:fb409a81893231cc03fdee5c88ebbdaa17135aef===. Value: FALSE
+[2024-07-10 14:10:13] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-07-10 14:10:13] [class-ss-create-zip-archive.php:71] Fetching list of files to include in zip
+[2024-07-10 14:10:13] [class-ss-create-zip-archive.php:80] Creating zip archive
+[2024-07-10 14:10:13] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://localhost/portfolio/ranjitbichukale.github.io/wp-content/uploads/simply-static/temp-files/simply-static-1-1720620594.zip">Click here to download</a>
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-07-10 14:10:13] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-07-10 14:10:13] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-07-10 14:10:13] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:19
